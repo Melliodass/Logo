@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@700&family=Roboto:wght@300;
+
+400;500;700;900&display=swap");
+@font-face {
+  font-family: UniSansHeavyCaps;
+  font-display: swap;
+  src: url("../fonts/UniSansHeavyCaps.woff") format("woff"), url("../fonts/UniSansHeavyCaps.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}

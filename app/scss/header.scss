@@ -1,0 +1,117 @@
+.header {
+  background: url("../img/bg_header.jpg") top no-repeat;
+  &__top {
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__bottom {
+  }
+}
+
+.top-header {
+  &__column {
+    flex: 1 0 50%;
+    &--logo {
+      align-self: flex-start;
+      flex: 0 0 100px;
+      padding-top: 25px;
+      margin-left: -70px;
+    }
+  }
+  &__icon {
+  }
+  &__logo {
+  }
+  &__contacts {
+    
+  }
+}
+
+.top__menu {
+}
+.menu {
+  &__body {
+    display: flex;
+    justify-content: center;
+  }
+  &__list {
+    
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    li {
+      padding: 7px 12px;
+      display: inline-block;
+      
+      font-family: "Play", sans-serif;
+      font-weight: 700;
+      align-items: center;
+      
+      justify-content: space-around;
+      border-radius: 20px;
+      &:hover {
+      background-color: #068292;
+    }
+  }
+  &__link {
+   
+    color: #fff;
+  
+    
+    
+    }
+  }
+}
+
+.icon-menu {
+}
+
+
+
+.contacts-header {
+  padding-left: 60px;
+  &__column {
+  }
+  &__item {
+    padding: 0 32px;
+  }
+  &__item--icon {
+  }
+  &__label {
+  }
+  &__phone {
+  }
+}
+
+
+.bottom-header {
+  &__column {
+  }
+  &__actions {
+  }
+  &__list {
+  }
+  &__login {
+  }
+  &__reg {
+  }
+  &__email {
+  }
+  &__info {
+}
+
+}
+
+.info-header {
+  &__column {
+  }
+  &__callback {
+  }
+  &__schedule {
+  }
+  &__cart {
+  }
+}

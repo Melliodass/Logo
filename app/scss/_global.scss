@@ -1,0 +1,15 @@
+@import "vars";
+
+//=== Глобальные настройки =========================================================================
+body {
+font-family: $fontFamily, sans-serif;
+font-size: $fontSize;
+}
+a {
+  text-decoration: none
+}
+.container {
+  max-width: $maxWidth;
+  margin: auto;
+  padding: 0 20px;
+}
